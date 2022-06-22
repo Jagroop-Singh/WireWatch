@@ -1,0 +1,22 @@
+[package]
+name = "wirewatch"
+version = "0.1.0"
+edition = "2021"
+description = ""
+documentation = ""
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tui = "0.18.0"
+bitflags = "1.3"
+cassowary = "0.3"
+unicode-segmentation = "1.2"
+unicode-width= "0.1"
+termion = "1.5.6"
+crossterm = "0.23.2"
+serde = {version = "1", optional = true, features = ["derive"]}
+rand = "0.8"
+argh = "0.1"
+
